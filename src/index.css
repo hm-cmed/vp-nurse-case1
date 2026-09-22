@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* Typography & Markdown styling for clinical evaluation */
+.evaluation-markdown h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  border-bottom: 2px solid #0d9488;
+  padding-bottom: 0.35rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.evaluation-markdown h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  border-left: 4px solid #0d9488;
+  padding-left: 0.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.evaluation-markdown h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #334155;
+  margin-top: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.evaluation-markdown p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.evaluation-markdown ul, .evaluation-markdown ol {
+  margin-left: 1.25rem;
+  margin-bottom: 0.75rem;
+  list-style-type: disc;
+}
+
+.evaluation-markdown ol {
+  list-style-type: decimal;
+}
+
+.evaluation-markdown li {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+
+.evaluation-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.825rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.evaluation-markdown th, .evaluation-markdown td {
+  border: 1px solid #cbd5e1;
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+}
+
+.evaluation-markdown th {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.evaluation-markdown tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.evaluation-markdown blockquote {
+  border-left: 4px solid #3b82f6;
+  background-color: #eff6ff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  color: #1e3a8a;
+  margin: 0.75rem 0;
+}

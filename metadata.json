@@ -1,0 +1,6 @@
+{
+  "name": "高度看護臨床判断シミュレーター（川崎病疑い児）",
+  "description": "川崎病疑い児（1歳6か月）の母親SP問診、フィジカルアセスメント、指導者へのSBAR報告作成とLCJR-J多面評価を行う看護臨床判断シミュレーター",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
